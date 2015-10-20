@@ -1,0 +1,6 @@
+Readme file for directory src10 for code flac
+modifications from standard src file from CIG/Luc Lavier/E. Tan
+1. Time step reset on restart (when tolerance reset in .inp file)
+2. Depth (zlock) for non-application of plastic strain weakening allowed in input (locked)
+3. Dissipation or sshrheat set for only plastic strain not total strain
+4. Output of velocity (array 'vel') for plotting is replaced by displacemnt (array 'disp') since start of run (or restart) in meters.
